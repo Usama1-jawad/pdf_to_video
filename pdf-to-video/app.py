@@ -1,8 +1,3 @@
-from flask_cors import CORS
-
-   app = Flask(__name__)
-   CORS(app, origins=["https://flipflow-7c658.firebaseapp.com"])
-
 from pdf_to_video_api import app
 
 if __name__ == '__main__':
